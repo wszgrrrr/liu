@@ -1,0 +1,407 @@
+
+/*导航开始*/
+.head{
+	width: 100%;
+	height:60px;
+}
+.nav{
+	list-style-type: none;
+	margin-left: 20px;
+}
+.nav li{
+	display: inline;
+	padding-left: 30px;
+	font-size: 15px;
+}
+.drop{
+	font-size: 15px;
+	position: relative;
+	display: block;
+	margin-top: -10px;
+}
+.drop-bottom{
+	position: absolute;
+	display: none;
+}
+.drop-bottom div{
+	padding-top: 10px;
+}
+.drop:hover .drop-bottom{
+	display: block;
+}
+/*导航结束*/
+/*展示图开始*/
+.back{
+	width:100%;
+	height:600px;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  color: white;
+}
+.back-headline{
+	padding-top:70px;
+	font-size:80px;
+	margin-left:150px ;
+}
+.back-content{
+	padding-top:80px;
+	margin-left: 150px;
+}
+.back-text{
+	margin-left: 150px;
+	padding-top: 20px;
+}
+.text-content{
+	font-size:60px;
+}
+/*展示图结束*/
+/*products开始*/
+.products{
+	width: 100%;
+	height: 525px;
+}
+.products-content{
+	width: 100%;
+	height: 50px;
+	color: red;
+	font-size:30px;
+	text-align: center;
+}
+/*边框开始*/
+.products-bottom{
+	width: 1000px;
+	height:470px;
+	border: 1px solid;
+	margin-left:150px;
+}
+.products-pic{
+	width: 100%;
+	height:470px;
+}
+.products-pic img{
+	width:215px;
+	height: 285px;
+	transform:skew(25deg);
+}
+.pic-hidde{
+	width: 215px;
+	height: 285px;
+	overflow: hidden;
+}
+.pic-headline{
+	margin:17px;
+	float: left;
+}
+.pic-text{
+	font-size: 19px;
+	margin-top:20px;
+}
+.pic-bottom{
+	font-size: 15px;
+	margin-top:-15px;
+}
+.products-pic img:hover{
+	transform:skew(0deg);
+}
+/*边框结束*/
+/*products 结束*/
+/*About开始*/
+.about{
+	text-align: center;
+		color: red;
+	font-size:30px;
+	clear: both;
+}
+.about-top{
+	font-size: 15px;
+	margin-top:50px;
+	margin-left: 110px;
+}
+.about-right{
+	font-size: 15px;
+	margin-left:750px;
+	margin-top:-30px;
+}
+.about-right div{
+	padding-left:3px;
+}
+.about-bottom{
+	font-size: 15px;
+	margin-left:120px;
+}
+.about-content{
+	font-size: 15px;
+	margin-left:750px;
+}
+.about-logo{
+	position: absolute;
+	margin-left:620px;
+	margin-top:-180px;
+}
+/*About结束*/
+/*our Team开始*/
+.ourteam{
+	text-align: center;
+	font-size: 30px;
+	color:red;
+	margin-top: 30px;
+}
+.ourteam-bottom{
+	width: 100%;
+	height:500px;
+	font-size: 15px;
+}
+.ourteam-pic{
+	float: left;
+	margin-left:45px;
+	padding-top: 50px;
+}
+.ourteam-headline{
+	font-size: 19px;
+	padding-top: 20px;
+}
+.ourteam-content{
+	margin-top:-10px;
+}
+.red{
+	position: absolute;
+	width: 255px;
+	height: 0.01px;
+	background-color: red;
+	opacity: 0.4;
+	transition:2s;
+}
+.ourteam-pic:hover .red{
+	height: 270px;
+}
+/*our Team结束*/
+/*what people say开始*/
+.say{
+	width: 100%;
+	height:270px;
+	background-image: url(../img/p-banner.jpg);
+}
+.say-text{
+	font-size: 30px;
+	color:white;
+	padding-top: 20px;
+	padding-left:30px;
+}
+.say-bottom{
+	margin-left: 180px;
+	font-size: 11px;
+	color: white;
+	margin-top:-130px;
+}
+.say-pic{
+	width:130px;
+	height:140px;
+	margin-left: 30px;
+	margin-top:40px;
+}
+.say-contnent{
+	color: #000000;
+	font-size: 15px;
+}
+.say-png{
+	width:130px;
+	height:140px;
+	margin-left:580px;
+	margin-top:-83px ;
+}
+.say-right{
+	margin-left:740px;
+	font-size: 11px;
+	color: white;
+    margin-top:-120px;
+}
+.say-font{
+	color: #000000;
+	font-size: 15px;
+}
+/*what people say结束*/
+/*Gallery开始*/
+.gallery{
+	width: 100%;
+	height: 520px;
+	text-align: center;
+}
+.gallery-conter{
+	font-size:30px;
+	color: red;
+	margin-top: 30px;
+}
+.gallery-pic{
+	margin-top: 20px;
+}
+.gallery-pic img{
+	width: 170px;
+	height: 130px;
+	margin-left: 10px;
+}
+.gallery-pic img:hover{
+	filter: grayscale(100%)
+}
+/*Gallery结束*/
+/*our servies开始*/
+.our{
+	width: 100%;
+	height:300px;
+	background-image: url(../img/services.jpg);
+	background-repeat: no-repeat;
+}
+.our-content{
+	text-align: center;
+	font-size: 30px;
+	color:white;
+	padding-top:5px;
+	color: #D43F3A;
+}
+.our-text{
+	position:absolute;
+	font-size: 11px;
+	color: white;
+	margin-left:50px;
+	margin-top:-55px;
+}
+.usb{
+	position:absolute;
+	font-size: 11px;
+	color: white;
+	margin-left:58px;
+	margin-top:-55px;
+}
+.our-bottom{
+	margin-left:120px;
+	margin-top: 20px;
+}
+.our-right{
+	margin-left:650px;
+	margin-top:-200px;
+}
+.our-font{
+	position:absolute;
+	font-size: 11px;
+	color: white;
+	margin-left:60px;
+	margin-top:-55px;
+}
+.right-bottom{
+	margin-left:650px;
+	margin-top:20px;
+}
+.our-over{
+	margin-left:650px;
+	margin-top:20px;
+}
+.file{
+	position:absolute;
+	font-size: 11px;
+	color: white;
+	margin-left:50px;
+	margin-top:-55px;
+}
+/*our servies 结束*/
+/*Contnt开始*/
+.contnt{
+	width: 100%;
+	height: 380px;
+}
+.contnt-content{
+		text-align: center;
+		color: #C7254E;
+		font-size: 30px;
+		margin-top: 50px;
+}
+.contnt-text{
+	font-size: 19px;
+}
+.contnt-font{
+	font-size: 13px;
+	padding-top: 10px;
+}
+.contnt-left{
+	margin-left: 200px;
+	margin-top: 20px;
+}
+.contnt-list{
+	margin-left:700px;
+	margin-top:-225px;
+}
+.name{
+	margin-left:700px;
+	margin-top: 20px;
+}
+.name input{
+	width: 310px;
+}
+.name span{
+	font-size: 15px;
+	margin-left:10px;
+}
+
+.frame{
+	margin-left:700px;
+	margin-top: 20px;
+}
+.submit{
+	background-color: red;
+}
+/*Contnt结束*/
+/*结尾开始*/
+.over{
+	width: 100%;
+	height: 260px;
+	background-color: #000000;
+}
+.over-bottmo{
+	color: white;
+	font-size:25px;
+	margin-left: 100px;
+	padding-top: 30px;
+}
+.over-left{
+	color: white;
+	font-size: 13px;
+	margin-left:100px;
+	margin-top: 30px;
+}
+.followus{
+	color: white;
+	font-size:25px;
+	margin-left:400px;
+	margin-top:-150px;
+}
+.us{
+	margin-left:400px;
+	margin-top:20px;
+}
+.myaccount{
+	color: white;
+	font-size: 25px;
+	margin-left:650px;
+	margin-top:-80px;
+}
+.my{
+	color: white;
+	font-size:15px;
+	margin-left: 650px;
+	margin-top: 20px;
+}
+.my div{
+	margin-top:20px;
+}
+.newsletter{
+	color: white;
+	font-size: 25px;
+	margin-left:900px;
+	margin-top:-90px;
+}
+.input{
+	margin-left: 900px;
+	margin-top: 20px;
+}
+.input input{
+	width: 230px;
+}
+/*结尾结束*/
